@@ -119,10 +119,10 @@ body {
 
 .dignity-pulses-product-list {
     width: 48%;
-    margin: 0;
     padding: 0 0 0 35px;
     list-style: none;
     box-sizing: border-box;
+    margin: 0 -16px 0 0;
 }
 
 .dignity-pulses-product-list li {
@@ -150,4 +150,43 @@ body {
 
 .dignity-pulses-product-list li:last-child {
     margin: 0;
+}
+
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+.screenshot {
+    width: 560px;
+}
+
+.screenshots-title {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-size: 30px;
+}
+
+.screenshot-img {
+    display: block;
+    background-color: #445161;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.screenshot-title {
+    text-align: left;
+    margin: 0 0 0 0;
+    font-size: 24px;
+}
+
+.screenshot-description {
+    text-align: left;
+    font-size: 16px;
+    margin: 0 0 0 0;
 }
