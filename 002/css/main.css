@@ -10,7 +10,6 @@ body {
     padding: 50px;
     box-sizing: border-box;
     background-color: #445161;
-    font-family: Arial;
     color: #fff;
 }
 
@@ -34,18 +33,19 @@ body {
 
 .main-header-list {
     margin: 0;
-    padding: 0 0 0 25px;
+    padding: 0 0 0 35px;
     font-size: 20px;
     line-height: 36px;
     font-weight: 400;
 }
 
-.main-header-list-item {
+.main-header-list li {
     list-style-type: none;
     position: relative;
+    /*left: 10px;*/
 }
 
-.main-header-list-item:before {
+.main-header-list li:before {
     content: "";
     display: block;
     width: 25px;
@@ -56,7 +56,11 @@ body {
     display: block;
     position: absolute;
     top: 7px;
-    left: -32px;
+    left: -30px;
+}
+
+.dmain-header-list li:last-child {
+    margin: 0;
 }
 
 .main-header-img {
@@ -65,4 +69,85 @@ body {
     height: 214px;
     background-color: #fff;
     float: right;
+}
+
+.main-section {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.main-section:after {
+    display: block;
+    content: "";
+    width: 100%;
+    clear: both;
+}
+
+.about-product-title {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.about-product-content {
+    padding: 0 100px 0 0;
+    width: 650px;
+    float: left;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.about-product-img {
+    display: block;
+    background-color: #445161;
+    float: right;
+}
+
+.dignity-pulses-product-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dignity-pulses-product-title {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.dignity-pulses-product-list {
+    width: 48%;
+    margin: 0;
+    padding: 0 0 0 35px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.dignity-pulses-product-list li {
+    position: relative;
+    margin: 0 0 20px 0;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+
+.dignity-pulses-product-list li:before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/dignity-pulses-product-list-item.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -35px;
+    background-color: #445161;
+}
+
+.dignity-pulses-product-list li:last-child {
+    margin: 0;
 }
