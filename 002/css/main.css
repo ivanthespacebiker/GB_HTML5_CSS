@@ -248,3 +248,90 @@ body {
 .review-signature {
     color: #989898;
 }
+
+.buy-it-now {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+.buy-it-now-title {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-size: 30px;
+}
+
+.rate {
+    background-color: #445161;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.rate-standart {
+    display: block;
+    height: 306px;
+}
+
+.rate-premium {
+    display: block;
+    height: 404px;
+}
+
+.rate-lux {
+    display: block;
+    height: 499px;
+}
+
+.rate-title {
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rate-price {
+    background-color: #FFFFFF;
+    color: #445161;
+    font-size: 40px;
+    text-align: center;
+    min-height: 71px;
+    border: 2px solid #445161;
+    margin: 0 0 0 0;
+    line-height: 71px;
+}
+
+.rate-dicription li {
+    font-size: 14px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 7px 0 7px 0px;
+}
+
+.buy-button {
+    display: block;
+    width: 260px;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    outline: none;
+    color: #445161;
+}
+
+.buy-button:hover {
+    background-color: #445161;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.buy-button:active {
+    background-color: #fff;
+    color: #445161;
+}
