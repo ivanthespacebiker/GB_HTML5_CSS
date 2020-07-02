@@ -364,3 +364,31 @@ body {
     background-color: #fff;
     color: #445161;
 }
+
+.contacts {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px 50px 30px;
+    box-sizing: border-box;
+}
+
+.contacts-title {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.contacts-form {
+    display: block;
+    width: 500px;
+}
+
+.contacts-links {
+    display: block;
+    width: 500px;
+}
