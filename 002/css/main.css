@@ -146,7 +146,6 @@ body {
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
-    display: block;
     position: absolute;
     top: 3px;
     left: -35px;
@@ -366,7 +365,6 @@ body {
 }
 
 .contacts {
-    display: block;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -374,6 +372,7 @@ body {
     width: 100%;
     padding: 50px 50px 30px;
     box-sizing: border-box;
+    background-color: #445161;
 }
 
 .contacts-title {
@@ -381,14 +380,196 @@ body {
     text-align: center;
     margin: 0 0 20px 0;
     font-size: 30px;
+    color: white;
 }
 
 .contacts-form {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
     width: 500px;
 }
 
-.contacts-links {
-    display: block;
+.input {
+    border-radius: 10px;
+    border-width: 0;
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    color: #445161;
+    box-sizing: border-box;
+}
+
+.input-name {
+    min-height: 40px;
     width: 500px;
+    text-transform: capitalize;
+    padding: 0 0 0 10px;
+}
+
+.input-email {
+    min-height: 40px;
+    width: 500px;
+    text-transform: capitalize;
+    padding: 0 0 0 10px;
+}
+
+.input-massage {
+    min-height: 170px;
+    width: 500px;
+    text-transform: capitalize;
+    padding: 0 0 0 10px;
+    resize: none;
+}
+
+.input-send {
+    min-height: 40px;
+    width: 140px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #445161;
+}
+
+.input-send:hover {
+    background-color: #445161;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.input-send:active {
+    background-color: #fff;
+    color: #445161;
+}
+
+.contacts-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    width: 500px;
+}
+
+.contacts-links-item {
+    display: block;
+    width: 450px;
+    height: 26px;
+    line-height: 26px;
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    color: white;
+    padding: 0 0 0 32px;
+    box-sizing: border-box;
+}
+
+.skype:before {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/skype-icon.png);
+    position: absolute;
+    left: 670px;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.icq:before {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/icq-icon.png);
+    position: absolute;
+    left: 670px;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.email:before {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/email-icon.png);
+    position: absolute;
+    left: 670px;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.phone:before {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/phone-icon.png);
+    position: absolute;
+    left: 670px;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.social-networks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 245px;
+    box-sizing: border-box;
+    margin: 25px 0 0 0;
+}
+
+.social-networks-item {
+    width: 45px;
+    height: 45px;
+}
+
+.twitter {
+    display: block;
+    background-image: url(../img/lfigx.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.facebook {
+    display: block;
+    background-image: url(../img/lfigx.png);
+    background-repeat: no-repeat;
+    background-position: -50px 0;
+}
+
+.linkedInn {
+    display: block;
+    background-image: url(../img/lfigx.png);
+    background-repeat: no-repeat;
+    background-position: -100px 0;
+}
+
+.google {
+    display: block;
+    background-image: url(../img/lfigx.png);
+    background-repeat: no-repeat;
+    background-position: -150px 0;
+}
+
+.youtube {
+    display: block;
+    background-image: url(../img/lfigx.png);
+    background-repeat: no-repeat;
+    background-position: -200px 0;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    color: #445161;
 }
