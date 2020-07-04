@@ -419,7 +419,7 @@ body {
     min-height: 170px;
     width: 500px;
     text-transform: capitalize;
-    padding: 0 0 0 10px;
+    padding: 10px 0 0 10px;
     resize: none;
 }
 
@@ -462,60 +462,28 @@ body {
     box-sizing: border-box;
 }
 
-.skype:before {
-    content: "";
-    display: block;
-    width: 26px;
-    height: 26px;
+.skype {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-image: url(../img/skype-icon.png);
-    position: absolute;
-    left: 670px;
-    padding: 0 0 0 0;
-    box-sizing: border-box;
 }
 
-.icq:before {
-    content: "";
-    display: block;
-    width: 26px;
-    height: 26px;
+.icq {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-image: url(../img/icq-icon.png);
-    position: absolute;
-    left: 670px;
-    padding: 0 0 0 0;
-    box-sizing: border-box;
 }
 
-.email:before {
-    content: "";
-    display: block;
-    width: 26px;
-    height: 26px;
+.email {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-image: url(../img/email-icon.png);
-    position: absolute;
-    left: 670px;
-    padding: 0 0 0 0;
-    box-sizing: border-box;
 }
 
-.phone:before {
-    content: "";
-    display: block;
-    width: 26px;
-    height: 26px;
+.phone {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-image: url(../img/phone-icon.png);
-    position: absolute;
-    left: 670px;
-    padding: 0 0 0 0;
-    box-sizing: border-box;
 }
 
 .social-networks {
